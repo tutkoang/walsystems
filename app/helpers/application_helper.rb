@@ -20,3 +20,7 @@ def source_helper(layout_name)
     @copyright = YViewTool::Renderer.copyright 'WalSystems', 'All right reserved'
   end
 end
+
+
+
+
