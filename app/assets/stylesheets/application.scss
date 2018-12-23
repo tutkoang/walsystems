@@ -98,7 +98,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (width: 48em) {
+@media (min-width: 48em) {
   .masthead-brand {
     float: left;
   }
@@ -160,9 +160,8 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home.jpeg') no-repeat;
+  background: image-url('home-pg.jpeg') no-repeat;
   background-size: cover;
-
 }
 
 
