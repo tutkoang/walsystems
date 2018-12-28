@@ -46,7 +46,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 
 body {
@@ -99,7 +98,7 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (width: 48em) {
+@media (min-width: 48em) {
   .masthead-brand {
     float: left;
   }
@@ -150,9 +149,25 @@ body {
   float: none;
 }
 
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('home-pg.jpeg') no-repeat;
+  background-size: cover;
+}
 
 
-
+.app-footer {
+  color: white;
+}
 
 
 
