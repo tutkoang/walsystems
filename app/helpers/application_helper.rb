@@ -19,6 +19,19 @@ def source_helper(layout_name)
   def copyright_generator
     @copyright = YViewTool::Renderer.copyright 'WalSystems', 'All right reserved'
   end
+
+  def alerts
+    alert = (flash[:alert] || flash[:error] || flash[:notice])
+
+    if alert
+      alert_generator alert
+    end
+  end
+
+  def alert_generator msg
+    js add_gritter(msg, title: "Tut Wal Portfolio", sticky: false)
+  end
+
 end
 
 
