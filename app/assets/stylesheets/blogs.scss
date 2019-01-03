@@ -1,6 +1,7 @@
-
 @import "bootstrap";
+@import "font-awesome";
 @import "gritter";
+
 
 
 .blog-header {
@@ -20,7 +21,7 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-family: 'Roboto Slab', serif;
 }
 
 .display-4 {
@@ -84,14 +85,51 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+.blogcrumb a {
+  font-size: 1.25em;
+  margin: 0px 10px 0px 10px;
+}
 
+.blog-nav {
+  margin-bottom: 30px;
+}
 
+.blog-sidebar-source {
+  margin-top: 20px;
+}
 
+.blog-body img {
+  width: 100%;
+}
 
+.blog-body img[alt=xlarge] {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.blog-body img[alt=large] {
+  width: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.blog-body img[alt=medium] {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.blog-body img[alt=small] {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.topic-index > .card {
+  margin: 10px;
+  padding: 20px;
+}
 
 
 
