@@ -21,6 +21,7 @@
  * Globals
  */
 
+
 /* Links */
 a,
 a:focus,
@@ -46,6 +47,16 @@ a:hover {
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Roboto Slab', serif;
 }
 
 body {
@@ -193,7 +204,7 @@ body {
 
 .profile-img {
   border: 1px solid grey;
-}
+}         
 
 .app-card-container a {
   color: #8B0000;
