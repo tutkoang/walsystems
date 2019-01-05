@@ -5,7 +5,7 @@ migration_class =
     ActiveRecord::Migration
   end
 
-class CreateFriendlyIdSlugs < migration_class
+class CreateFriendlyIdSlugs < migration_class::Migration[5.2]
   def change
     create_table :friendly_id_slugs do |t|
       t.string   :slug,           :null => false
